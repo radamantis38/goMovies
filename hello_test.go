@@ -3,6 +3,8 @@ package main
 import "testing"
 
 func TestSum(t *testing.T) {
-	main()
-	//t.Errorf("Error por que si")
+	total := Sum(5, 5)
+	if total != 10 {
+		t.Errorf("suma incorrecta, got: %d, want: %d.", total, 10)
+	}
 }
