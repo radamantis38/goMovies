@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3a086b1-ad3b-410d-b21c-389a35ab0bf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peliculas" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,12 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Test.TestSum in hello_test.go">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build hello.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="peliculas" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -109,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build hello.go" />
         <item itemvalue="Go Test.TestSum in hello_test.go" />
         <item itemvalue="Go Test.hello_test.go" />
-        <item itemvalue="Go Build.go build hello.go" />
         <item itemvalue="Go Test.TestSum in Peliculas" />
         <item itemvalue="Go Build.go build Peliculas" />
       </list>
@@ -129,21 +136,21 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582836472047" />
-    <state width="1797" height="190" key="GridCell.Tab.0.bottom" timestamp="1582839008530">
+    <state width="1797" height="190" key="GridCell.Tab.0.bottom" timestamp="1582845204038">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="190" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582839008530" />
-    <state width="1797" height="190" key="GridCell.Tab.0.center" timestamp="1582839008530">
+    <state width="1797" height="190" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582845204038" />
+    <state width="1797" height="190" key="GridCell.Tab.0.center" timestamp="1582845204038">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="190" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582839008530" />
-    <state width="1797" height="190" key="GridCell.Tab.0.left" timestamp="1582839008530">
+    <state width="1797" height="190" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582845204038" />
+    <state width="1797" height="190" key="GridCell.Tab.0.left" timestamp="1582845204038">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="190" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582839008530" />
-    <state width="1797" height="190" key="GridCell.Tab.0.right" timestamp="1582839008530">
+    <state width="1797" height="190" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582845204038" />
+    <state width="1797" height="190" key="GridCell.Tab.0.right" timestamp="1582845204038">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="190" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582839008530" />
+    <state width="1797" height="190" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582845204038" />
   </component>
 </project>
