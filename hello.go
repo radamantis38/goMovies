@@ -1,7 +1,9 @@
 package main
 
-func Sum(x int, y int) int {
-	return x + y
+import "errors"
+
+func Sum(x int, y int) (int, error) {
+	return 0, errors.New("Error")
 }
 
 func main() {
