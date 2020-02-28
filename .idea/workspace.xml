@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3a086b1-ad3b-410d-b21c-389a35ab0bf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="471" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,22 +49,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSum in hello_test.go">
+  <component name="RunManager" selected="Go Build.go build hello.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="peliculas" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
-      <package value="Peliculas" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build Peliculas" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="peliculas" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/hello.go" />
       <package value="Peliculas" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -73,15 +69,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSum in Peliculas" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAmenorB in peliculas" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="peliculas" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="Peliculas" />
+      <package value="peliculas" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSum$" />
+      <pattern value="^TestAmenorB$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSum in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -106,6 +102,16 @@
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go test peliculas" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="peliculas" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="Peliculas" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="peliculas" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSum in hello_test.go" />
         <item itemvalue="Go Build.go build hello.go" />
+        <item itemvalue="Go Test.go test peliculas" />
+        <item itemvalue="Go Test.TestSum in hello_test.go" />
+        <item itemvalue="Go Test.TestAmenorB in peliculas" />
         <item itemvalue="Go Test.hello_test.go" />
-        <item itemvalue="Go Test.TestSum in Peliculas" />
-        <item itemvalue="Go Build.go build Peliculas" />
       </list>
     </recent_temporary>
   </component>
@@ -142,21 +148,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582836472047" />
-    <state width="1797" height="190" key="GridCell.Tab.0.bottom" timestamp="1582845794662">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1582856356864">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="190" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582845794662" />
-    <state width="1797" height="190" key="GridCell.Tab.0.center" timestamp="1582845794662">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582856356864" />
+    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1582856356864">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="190" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582845794662" />
-    <state width="1797" height="190" key="GridCell.Tab.0.left" timestamp="1582845794662">
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582856356864" />
+    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1582856356864">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="190" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582845794662" />
-    <state width="1797" height="190" key="GridCell.Tab.0.right" timestamp="1582845794662">
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582856356864" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1582856356864">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1797" height="190" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582845794662" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582856356864" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/peliculas$TestSum_in_hello_test_go.out" NAME="TestSum in hello_test.go Coverage Results" MODIFIED="1582856209964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/peliculas$TestAmenorB_in_peliculas.out" NAME="TestAmenorB in peliculas Coverage Results" MODIFIED="1582856196027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/peliculas$go_test_peliculas.out" NAME="go test peliculas Coverage Results" MODIFIED="1582856275479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

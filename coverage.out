@@ -1,0 +1,6 @@
+mode: set
+peliculas/hello.go:5.37,7.2 1 1
+peliculas/hello.go:9.35,10.10 1 1
+peliculas/hello.go:13.2,13.12 1 1
+peliculas/hello.go:10.10,12.3 1 0
+peliculas/hello.go:16.13,18.2 1 0
