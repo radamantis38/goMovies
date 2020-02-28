@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"peliculas/repositories"
 	"peliculas/usecases"
 )
 
@@ -11,7 +12,8 @@ type getMoviesInterface interface {
 
 
 func main() {
- uc := usecases.NewGetMovies()
+ moviesRepository := repositories.NewDummyMovie()
+ uc := usecases.NewGetMovies(moviesRepository)
  movies, err := uc.Handle()
  if err != nil{
 	 fmt.Println("Error")
