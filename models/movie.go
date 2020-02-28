@@ -2,7 +2,7 @@ package models
 
 type Movie struct {
 	ID               int     `json:"id"`
-	Title            int     `json:"title"`
+	Title            string  `json:"title"`
 	VoteCount        int     `json:"vote_count"`
 	VoteAverage      float32 `json:"vote_average"`
 	OriginalTitle    string  `json:"original_title"`

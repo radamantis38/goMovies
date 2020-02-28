@@ -12,7 +12,7 @@ type getMoviesInterface interface {
 
 
 func main() {
- moviesRepository := repositories.NewDummyMovie()
+ moviesRepository := repositories.NewMysqlMovie()
  uc := usecases.NewGetMovies(moviesRepository)
  movies, err := uc.Handle()
  if err != nil{
