@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3a086b1-ad3b-410d-b21c-389a35ab0bf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/usecases/get_movies_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_movies_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/get_movies_handler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/movie.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/movie.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/mysql_movie.go" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/mysql_movie.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="471" />
+    <option name="myElementSize" value="241" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,7 +51,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build get_movies_handler.go">
+  <component name="RunManager" selected="Go Test.go test peliculas/usecases">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="peliculas" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -68,15 +67,6 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/get_movies_handler.go" />
-      <package value="Peliculas" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build get_movies_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="peliculas" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/get_movies_main.go" />
       <package value="Peliculas" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -99,6 +89,17 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="Test_getMovies_Handle in peliculas/usecases" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="peliculas" />
+      <working_directory value="$PROJECT_DIR$/usecases" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="peliculas/usecases" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test_getMovies_Handle$" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="peliculas" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -110,23 +111,23 @@
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go test peliculas" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test peliculas/usecases" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="peliculas" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/usecases" />
       <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="Peliculas" />
-      <directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="peliculas/usecases" />
+      <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test peliculas/usecases" />
+        <item itemvalue="Go Test.Test_getMovies_Handle in peliculas/usecases" />
         <item itemvalue="Go Build.go build get_movies_handler.go" />
         <item itemvalue="Go Build.go build peliculas (1)" />
         <item itemvalue="Go Build.go build peliculas" />
-        <item itemvalue="Go Build.go build get_movies_main.go" />
-        <item itemvalue="Go Test.go test peliculas" />
       </list>
     </recent_temporary>
   </component>
@@ -158,24 +159,25 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582836472047" />
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1582875180953">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1582876663298">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582875180953" />
-    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1582875180952">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582876663298" />
+    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1582876663298">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582875180952" />
-    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1582875180952">
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582876663298" />
+    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1582876663298">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582875180952" />
-    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1582875180953">
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582876663298" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1582876663298">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582875180953" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1366.768@67.27.1853.1053" timestamp="1582876663298" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/peliculas$go_test_peliculas_usecases.out" NAME="go test peliculas/usecases Coverage Results" MODIFIED="1582876662495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/peliculas$go_test_peliculas.out" NAME="go test peliculas Coverage Results" MODIFIED="1582857141658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
